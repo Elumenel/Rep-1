@@ -1,0 +1,251 @@
+*{
+  margins: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+#navbar-container{
+  background-color: #353a40;
+}
+
+.navbar-brand{
+  font-size:180%
+}
+
+#navbar-text{
+  font-size:150%;
+}
+
+.nav-item{
+  padding: 5px;
+}
+
+#green-link{
+  color:#29a744;
+}
+
+#carousel-main{
+  height: 785px;
+  filter: brightness(50%);
+}
+
+.carousel-inner img{
+  position: absolute;
+  top:-205px
+}
+
+#carousel-card{
+  position: absolute;
+  top:360px;
+  right:140px;
+  height: 785px;
+  width:800px;
+  border: 0px
+}
+
+#carousel-card-title{
+  font-size:270%;
+  font-weight: bold;
+  color:white;
+  padding-bottom:10px
+}
+
+#carousel-card-text{
+  font-size:150%;
+  color:white;
+  padding-bottom:10px
+}
+
+#carousel-card-button1{
+  font-size:150%
+}
+
+#carousel-card-button2{
+  font-size:150%;
+  background-color:#29a744;
+  border-color:#29a744
+}
+
+h2{
+  text-transform: uppercase;
+  padding-top: 16px;
+  text-align: center;
+}
+
+.title-line-1{
+  font-size: 50%;
+  font-weight:400 ;
+}
+
+.title-line-2{
+  font-size: 125%;
+  margin-top: -12px
+}
+
+h5{
+  font-size: 150%;
+  padding-bottom: 12px
+}
+
+.h-100{
+  width: 416px
+}
+
+.card-text{
+  line-height: 30px;
+  padding-bottom: 10px
+}
+
+.badge{
+  font-size: 100%;
+  padding:4px;
+  margin-top:15px
+}
+
+.bg-primary{
+  background-color: #17a2b5 !important;
+}
+
+#postcard{
+  margin-top: 50px;
+  margin-bottom: 20px;
+  border: solid 1px black;
+}
+
+#postcard-pic{
+  border: solid 1px white;
+}
+
+#postcard-text{
+  border: solid 1px white;
+  border-left: 0px;
+}
+
+#postcard-title{
+  font-size: 200% !important
+}
+
+#anotate{
+  font-size: 125%;
+  text-align: center;
+  margin-top: -5px;
+}
+
+#inline-link{
+  color: inherit;
+  text-decoration-style: dotted;
+}
+
+#form-container{
+  width: 930px;
+  margin-bottom: 20px
+}
+
+.form-control{
+  font-size:110%
+}
+
+#largebox{
+  margin-top: -5px;
+  margin-bottom: -20px;
+  font-size: 25px
+}
+
+.text-below{
+  color: gray;
+  margin-bottom: -5px
+}
+
+#large-green-button{
+  font-size: 165%;
+  height:58px;
+  background-color:#96c93e;
+  border:0px;
+}
+
+#footer-container{
+  background: rgb(28,54,67);
+  background: linear-gradient(90deg, rgba(28,54,67,1) 0%, rgba(30,83,114,1) 100%);
+  font-size: 120%;
+  font-weight: 500;
+  height: 120px;
+  display:grid;
+  align-content: center;
+}
+
+.col-sm{
+  align-self: center;
+  text-align: center;
+}
+
+.colorme {
+color: white !important;
+}
+
+/* ╔═════════════ ✿.｡.:* ☆:**:. Pág Tickets .:**:.☆*.:｡.✿ ═════════════╗ */
+
+#pricecard-container{
+  width: 930px;
+  margin-top: 40px;
+}
+
+.pricecard{
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px
+}
+
+.card{
+  border-radius: 0;
+  border-width: 2px;
+  align-items: center;
+}
+#price1{
+  border-color: #007bff;
+}
+
+#price2{
+  border-color: #17a2b8;
+}
+
+#price3{
+  border-color: #ffc107;
+}
+
+
+.main-text{
+  font-size: 150%
+}
+
+.porcentaje{
+  font-size: 130%;
+  font-weight: bold;
+}
+
+.documentacion{
+  font-size: 120%;
+  font-weight: 400;
+  color:gray
+}
+
+select option{
+  color: gray !important;
+}
+
+#total-pagar{
+  background-color: #cce5ff;
+  border-radius: 5px;
+  border: solid 1px #badbff;
+  padding: 12px;
+  font-size:125%;
+}
+
+.form-control-plaintext::placeholder{
+  color: black !important
+}
+
+.small-green-button{
+  background-color:#96c93e;
+  border:0px;
+  width: inherit;
+}
